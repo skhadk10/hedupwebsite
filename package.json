@@ -19,6 +19,7 @@
     "react-scripts": "^5.0.1",
     "sass": "^1.51.0",
     "swiper": "^6.7.0",
+    "typed.js": "^2.0.15",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

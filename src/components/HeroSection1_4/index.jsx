@@ -1,4 +1,4 @@
-import Typed from "react-typed"
+import Typed from "typed.js"
 
 import Div from '../../components/Div';
 import Atag from '../../components/Atag';
