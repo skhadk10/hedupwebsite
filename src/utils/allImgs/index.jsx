@@ -193,6 +193,13 @@ import FooterLogo from "../../assets/img/core-img/logo.png"
 import FooterWithTestImg1 from "../../assets/img/test-img/1.jpg"
 import FooterWithTestImg2 from "../../assets/img/test-img/2.jpg"
 import FooterWithTestImg3 from "../../assets/img/test-img/3.jpg"
+import FooterWithTestImg4 from "../../assets/img/test-img/19.jpg"
+import FooterWithTestImg5 from "../../assets/img/test-img/21.jpg"
+import FooterWithTestImg6 from "../../assets/img/test-img/22.jpg"
+import FooterWithTestImg7 from "../../assets/img/test-img/23.jpg"
+import FooterWithTestImg8 from "../../assets/img/test-img/26.jpg"
+import FooterWithTestImg9 from "../../assets/img/test-img/28.jpg"
+import FooterWithTestImg10 from "../../assets/img/test-img/29.jpg"
 
 import FAQCoreImg from "../../assets/img/core-img/about-2.png"
 
@@ -211,6 +218,13 @@ export {
 	FooterWithTestImg1,
 	FooterWithTestImg2,
 	FooterWithTestImg3,
+	FooterWithTestImg4,
+	FooterWithTestImg5,
+	FooterWithTestImg6,
+	FooterWithTestImg7,
+	FooterWithTestImg8,
+	FooterWithTestImg9,
+	FooterWithTestImg10,
 
 	FooterPagesPartners1,
 	FooterPagesPartners2,

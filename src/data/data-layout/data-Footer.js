@@ -3,6 +3,13 @@ import{
 	FooterWithTestImg1,
 	FooterWithTestImg2,
 	FooterWithTestImg3,
+	FooterWithTestImg4,
+	FooterWithTestImg5,
+	FooterWithTestImg6,
+	FooterWithTestImg7,
+	FooterWithTestImg8,
+	FooterWithTestImg9,
+	FooterWithTestImg10,
 
     FAQMember1,
     FAQMember2,
@@ -70,6 +77,41 @@ export const TestimonialContent = [
     },
     {
         img:FooterWithTestImg3,
+        name:'Jebin Khan',
+        title:'Head of Marketing, Company CEO'
+    },
+    {
+        img:FooterWithTestImg4,
+        name:'Sunny Khan',
+        title:'Head of Design, Company CEO'
+    },
+    {
+        img:FooterWithTestImg5,
+        name:'Ajoy Das',
+        title:'Head of Idea, Company CEO'
+    },
+    {
+        img:FooterWithTestImg6,
+        name:'Jebin Khan',
+        title:'Head of Marketing, Company CEO'
+    },
+    {
+        img:FooterWithTestImg7,
+        name:'Sunny Khan',
+        title:'Head of Design, Company CEO'
+    },
+    {
+        img:FooterWithTestImg8,
+        name:'Ajoy Das',
+        title:'Head of Idea, Company CEO'
+    },
+    {
+        img:FooterWithTestImg9,
+        name:'Jebin Khan',
+        title:'Head of Marketing, Company CEO'
+    },
+    {
+        img:FooterWithTestImg10,
         name:'Jebin Khan',
         title:'Head of Marketing, Company CEO'
     },

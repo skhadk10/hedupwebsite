@@ -37,10 +37,10 @@ const SecHeroSection = () => {
                   className="info-btn-group wow fadeInUp"
                   data-wow-delay="0.4s"
                 >
-                  <Atag href="#" className="btn more-btn mr-3">
+                  <Atag href="/contact-us" className="btn more-btn mr-3">
                     contact us
                   </Atag>
-                  <Atag href="#" className="btn more-btn">
+                  <Atag href="/about-us" className="btn more-btn">
                     {" "}
                     Learn more
                   </Atag>

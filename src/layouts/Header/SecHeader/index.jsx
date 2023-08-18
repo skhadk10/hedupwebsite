@@ -20,7 +20,7 @@ const SecHeader = ({
       <nav className="navbar navbar-expand-md navbar-white fixed-top" id="banner">
         <Div className="container">
           {/* Brand */}
-          <Atag className="navbar-brand" href="#"><SpanTag><ImgTag src={Logo} alt="logo" /></SpanTag></Atag>
+          <Atag className="navbar-brand" href="/#"><SpanTag><ImgTag src={Logo} alt="logo" /></SpanTag></Atag>
           {/* Toggler/collapsibe Button */}
           <Button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <SpanTag className="navbar-toggler-icon"></SpanTag>

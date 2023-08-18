@@ -34,13 +34,13 @@ const FooterPages = () => {
           TestimonialContent={TestimonialContent}
           Partners={Partners}
         /> */}
-        <HomeStriples 
+        {/* <HomeStriples 
           FQAInfo={FQAInfo}
           FAQCoreImg={FAQCoreImg}
           TeamMemberContent={TeamMemberContent}
           TestimonialContent={TestimonialContent}
           Partners={Partners}
-        />
+        /> */}
 
         <Div className="footer-content-area mt-0">
           <Div className="container">

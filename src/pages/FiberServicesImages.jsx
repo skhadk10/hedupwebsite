@@ -24,16 +24,16 @@ SwiperCore.use([Pagination]);
 
 // install Swiper modules
 
-const TestimonialArea = ({data}) => {
+const FiberservicesImages = ({data}) => {
 	return(
       <Section className="clients_testimonials_area bg-img section-padding-0-0" id="test">
         <Div className="container">
           <Div className="row">
             <Div className="col-12">
-              <SectionHeading title='Our Telecommunication Department' text='Work we do' />
+              <SectionHeading title='Our Testimonials' text='Loved By Our Clients' />
             </Div>
           </Div>
-        </Div>         
+        </Div>
         <Div className="cotainer-fluid">
           <Div className="row justify-content-center wow fadeInUp" data-wow-delay="0.4s">
             <Div className="col-12 col-md-10 col-xs-10 offset-xs-1">
@@ -53,22 +53,22 @@ const TestimonialArea = ({data}) => {
 		        className="client_slides"
 		      >
                 {data && data.map((item , key) => (
-	                <SwiperSlide className="single-testimonial text-center dflex" key={key}>
+	                <SwiperSlide className="single-testimonial text-center" key={key}>
 	                  {/* Testimonial Image */}
-	                  {/* <Div className="testimonial_image"> */}
-	                    <ImgTag src={item.img} alt="" style={{width: "400px", height: "500px"}}/>
-	                  {/* </Div> */}
+	                  <Div className="testimonial_image">
+	                    <ImgTag src={item.img} alt="" />
+	                  </Div>
 	                  {/* Testimonial Feedback Text */}
-	                  {/* <Div className="testimonial-description"> */}
-	                    {/* <Div className="testimonial_text"> */}
-	                      {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis magni, quisquam, accusantium dolores atque, doloribus odit minus maiores sunt mollitia consequatur, soluta quasi.</p> */}
-	                    {/* </Div> */}
+	                  <Div className="testimonial-description">
+	                    <Div className="testimonial_text">
+	                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis magni, quisquam, accusantium dolores atque, doloribus odit minus maiores sunt mollitia consequatur, soluta quasi.</p>
+	                    </Div>
 	                    {/* Admin Text */}
-	                    {/* <Div className="admin_text">
+	                    <Div className="admin_text">
 	                      <h5>{item.name}</h5>
 	                      <p>{item.title}</p>
-	                    </Div> */}
-	                  {/* </Div> */}
+	                    </Div>
+	                  </Div>
 	                </SwiperSlide>
                 ))}
               {/*</Div>*/}
@@ -80,4 +80,4 @@ const TestimonialArea = ({data}) => {
 	)
 }
 
-export default TestimonialArea
+export default FiberservicesImages
