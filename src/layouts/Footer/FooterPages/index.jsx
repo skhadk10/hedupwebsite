@@ -48,10 +48,10 @@ const FooterPages = () => {
               <Div className="col-12 col-lg-4 col-md-6">
                 <Div className="footer-copywrite-info">
                   <Div className="copywrite_text fadeInUp" data-wow-delay="0.2s">
-                    <Div className="footer-logo">
-                      <Atag href="#"><ImgTag src={FooterLogo} alt="logo" /> </Atag>
+                    <Div className="footer-logo" >
+                      <Atag href="/#"><ImgTag src={FooterLogo} alt="logo" style={{width:"200px", height:"100px"}} /> </Atag>
                     </Div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p> */}
                   </Div>
                   <Div className="footer-social-info fadeInUp" data-wow-delay="0.4s">
                     {IcoName && IcoName.map((item , key) => (

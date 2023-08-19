@@ -74,8 +74,7 @@ const SecHowITWorks = ({ ServicesBlockInfo }) => {
                     </a>
                   </h3>
                   <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laudantium modi assumenda beatae nonic.
+                  Our technician sets up the NBN connection box and modem/router in your home, establishes a stable connection, conducts tests, and upon success, your ISP activates the service, allowing you to enjoy high-speed internet.
                   </div>
                 </div>
               </div>

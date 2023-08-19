@@ -1,4 +1,3 @@
-
 import {
   ServiceSingleInfo,
   ServicesBlockInfo,
@@ -24,58 +23,164 @@ const CopperServicesContainer = () => {
         <div className="container">
           <SectionHeading title="OUR SERVICES" text="Our Copper Services" />
           <div className="row">
-            {ServiceMultipleInfo &&
-              ServiceMultipleInfo[0] && (
-                <SubSecContent
-                 
-                  img={ ServiceMultipleInfo[0].img}
-                  title={ ServiceMultipleInfo[0].title}
-                  text0={ ServiceMultipleInfo[0].text0}
-                  text1={ ServiceMultipleInfo[0].text1}
-                  text2={ ServiceMultipleInfo[0].text2}
-                  text3={ ServiceMultipleInfo[0].text3}
-                  text4={ ServiceMultipleInfo[0].text4}
-                  text5={ ServiceMultipleInfo[0].text5}
-                  
-                />
-              )}
+            {ServiceMultipleInfo && ServiceMultipleInfo[0] && (
+              <SubSecContent
+                img={ServiceMultipleInfo[0].img}
+                title={ServiceMultipleInfo[0].title}
+                text0={ServiceMultipleInfo[0].text0}
+                text1={ServiceMultipleInfo[0].text1}
+                text2={ServiceMultipleInfo[0].text2}
+                text3={ServiceMultipleInfo[0].text3}
+                text4={ServiceMultipleInfo[0].text4}
+                text5={ServiceMultipleInfo[0].text5}
+              />
+            )}
           </div>
         </div>
       </section>
       <section className="about-us-area special section-padding-0-100 clearfix cir-right">
         <div className="container">
           <SectionHeading title="How IT Works" text=" How Our Platform Works" />
-          <div className="row align-items-center">
-            <div className="services-column col-lg-6 col-xs-12">
-              {ServicesBlockInfo &&
-                ServicesBlockInfo.map((item, key) => (
-                  <div
-                    className="services-block-four how"
-                    key={key}
-                    style={{ marginBottom: `${item.checkLast ? 0 : "30px"}` }}
-                  >
-                    <div className="inner-box">
-                      <div className="step">{item.Step}</div>
-                      <h3>
-                        <a className="normal" href="#">
-                          {item.title}
-                        </a>
-                      </h3>
-                      <div className="text">
-                     {item.text}
-                      </div>
+          <div className="row ">
+            <div className="col-md-6">
+              {ServicesBlockInfo && ServicesBlockInfo[3] && (
+                <div
+                  className="services-block-four how"
+                  style={{
+                    marginBottom: `${
+                      ServicesBlockInfo[3].checkLast ? 0 : "30px"
+                    }`,
+                  }}
+                >
+                  <div className="inner-box">
+                    <div className="step">{ServicesBlockInfo[3].Step}</div>
+                    <h3>
+                      <a className="normal" href="#">
+                        {ServicesBlockInfo[3].title}
+                      </a>
+                    </h3>
+                    <div className="text">
+                      <p>{ServicesBlockInfo[3].text}</p>
                     </div>
                   </div>
-                ))}
+                </div>
+              )}
+              {ServicesBlockInfo && ServicesBlockInfo[4] && (
+                <div
+                  className="services-block-four how"
+                  style={{
+                    marginBottom: `${
+                      ServicesBlockInfo[4].checkLast ? 0 : "30px"
+                    }`,
+                  }}
+                >
+                  <div className="inner-box">
+                    <div className="step">{ServicesBlockInfo[4].Step}</div>
+                    <h3>
+                      <a className="normal" href="#">
+                        {ServicesBlockInfo[4].title}
+                      </a>
+                    </h3>
+                    <div className="text">
+                      <p>{ServicesBlockInfo[4].text}</p>
+                    </div>
+                  </div>
+                </div>
+              )}{" "}
+              {ServicesBlockInfo && ServicesBlockInfo[5] && (
+                <div
+                  className="services-block-four how"
+                  style={{
+                    marginBottom: `${
+                      ServicesBlockInfo[5].checkLast ? 0 : "30px"
+                    }`,
+                  }}
+                >
+                  <div className="inner-box">
+                    <div className="step">{ServicesBlockInfo[5].Step}</div>
+                    <h3>
+                      <a className="normal" href="#">
+                        {ServicesBlockInfo[5].title}
+                      </a>
+                    </h3>
+                    <div className="text">
+                      <p>{ServicesBlockInfo[5].text}</p>
+                    </div>
+                  </div>
+                </div>
+              )}{" "}
+           
+           
             </div>
-            <div className="col-12 col-lg-6 mt-s">
+            <div className="col-md-6">
               <div className="service-img-wrapper">
                 <div className="image-box">
-                  <img
-                    src={ServicesCoreImgAppo}
-                    className="center-block img-responsive phone-img"
-                    alt=""
-                  />
+                {ServicesBlockInfo && ServicesBlockInfo[6] && (
+                <div
+                  className="services-block-four how"
+                  style={{
+                    marginBottom: `${
+                      ServicesBlockInfo[6].checkLast ? 0 : "30px"
+                    }`,
+                  }}
+                >
+                  <div className="inner-box">
+                    <div className="step">{ServicesBlockInfo[6].Step}</div>
+                    <h3>
+                      <a className="normal" href="#">
+                        {ServicesBlockInfo[6].title}
+                      </a>
+                    </h3>
+                    <div className="text">
+                      <p>{ServicesBlockInfo[6].text}</p>
+                    </div>
+                  </div>
+                </div>
+              )}{" "}
+              {ServicesBlockInfo && ServicesBlockInfo[7] && (
+                <div
+                  className="services-block-four how"
+                  style={{
+                    marginBottom: `${
+                      ServicesBlockInfo[7].checkLast ? 0 : "30px"
+                    }`,
+                  }}
+                >
+                  <div className="inner-box">
+                    <div className="step">{ServicesBlockInfo[7].Step}</div>
+                    <h3>
+                      <a className="normal" href="#">
+                        {ServicesBlockInfo[7].title}
+                      </a>
+                    </h3>
+                    <div className="text">
+                      <p>{ServicesBlockInfo[7].text}</p>
+                    </div>
+                  </div>
+                </div>
+              )}
+              {ServicesBlockInfo && ServicesBlockInfo[8] && (
+                <div
+                  className="services-block-four how"
+                  style={{
+                    marginBottom: `${
+                      ServicesBlockInfo[8].checkLast ? 0 : "30px"
+                    }`,
+                  }}
+                >
+                  <div className="inner-box">
+                    <div className="step">{ServicesBlockInfo[8].Step}</div>
+                    <h3>
+                      <a className="normal" href="#">
+                        {ServicesBlockInfo[8].title}
+                      </a>
+                    </h3>
+                    <div className="text">
+                      <p>{ServicesBlockInfo[8].text}</p>
+                    </div>
+                  </div>
+                </div>
+              )}
                 </div>
               </div>
             </div>

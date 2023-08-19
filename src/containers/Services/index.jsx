@@ -22,7 +22,7 @@ const ServicesContainer = () => {
           <SectionHeading title="OUR SERVICES" text="Our Core Services" />
           <div className="row">
             {ServiceSingleInfo &&
-              ServiceSingleInfo.map((item, key) => (
+              ServiceSingleInfo.map((item,key) =>(
                 <SecContent
                   key={key}
                   img={item.img}
@@ -41,23 +41,59 @@ const ServicesContainer = () => {
           <div className="row align-items-center">
             <div className="services-column col-lg-6 col-xs-12">
               {ServicesBlockInfo &&
-                ServicesBlockInfo.map((item, key) => (
+                ServicesBlockInfo[0] && (
                   <div
                     className="services-block-four how"
-                    key={key}
-                    style={{ marginBottom: `${item.checkLast ? 0 : "30px"}` }}
+              
+                    style={{ marginBottom: `${ ServicesBlockInfo[0].checkLast ? 0 : "30px"}` }}
                   >
                     <div className="inner-box">
-                      <div className="step">{item.Step}</div>
+                      <div className="step">{ ServicesBlockInfo[0].Step}</div>
                       <h3>
                         <a className="normal" href="#">
-                          {item.title}
+                          { ServicesBlockInfo[0].title}
                         </a>
                       </h3>
-                      <div className="text">{item.text}</div>
+                      <div className="text">{ ServicesBlockInfo[0].text}</div>
                     </div>
                   </div>
-                ))}
+                )}
+              {ServicesBlockInfo &&
+                ServicesBlockInfo[1] && (
+                  <div
+                    className="services-block-four how"
+                   
+                    style={{ marginBottom: `${ ServicesBlockInfo[1].checkLast ? 0 : "30px"}` }}
+                  >
+                    <div className="inner-box">
+                      <div className="step">{ ServicesBlockInfo[1].Step}</div>
+                      <h3>
+                        <a className="normal" href="#">
+                          { ServicesBlockInfo[1].title}
+                        </a>
+                      </h3>
+                      <div className="text">{ ServicesBlockInfo[1].text}</div>
+                    </div>
+                  </div>
+                )}
+              {ServicesBlockInfo &&
+                ServicesBlockInfo[2] && (
+                  <div
+                    className="services-block-four how"
+                   
+                    style={{ marginBottom: `${ ServicesBlockInfo[2].checkLast ? 0 : "30px"}` }}
+                  >
+                    <div className="inner-box">
+                      <div className="step">{ ServicesBlockInfo[2].Step}</div>
+                      <h3>
+                        <a className="normal" href="#">
+                          { ServicesBlockInfo[2].title}
+                        </a>
+                      </h3>
+                      <div className="text">{ ServicesBlockInfo[2].text}</div>
+                    </div>
+                  </div>
+                )}
             </div>
             <div className="col-12 col-lg-6 mt-s">
               <div className="service-img-wrapper">

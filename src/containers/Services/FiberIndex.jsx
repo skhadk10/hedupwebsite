@@ -41,37 +41,130 @@ const FiberServicesContainer = () => {
       <section className="about-us-area special section-padding-0-100 clearfix cir-right">
         <div className="container">
           <SectionHeading title="How IT Works" text=" How Our Platform Works" />
-          <div className="row align-items-center">
-            <div className="services-column col-lg-6 col-xs-12">
-              {ServicesBlockInfo &&
-                ServicesBlockInfo.map((item, key) => (
+          <div className="row">
+            <div className="col-md-6">
+            {ServicesBlockInfo &&
+                ServicesBlockInfo[17] && (
                   <div
                     className="services-block-four how"
-                    key={key}
-                    style={{ marginBottom: `${item.checkLast ? 0 : "30px"}` }}
+                 
+                    style={{ marginBottom: `${ ServicesBlockInfo[17].checkLast ? 0 : "30px"}` }}
                   >
                     <div className="inner-box">
-                      <div className="step">{item.Step}</div>
+                      <div className="step">{ ServicesBlockInfo[17].Step}</div>
                       <h3>
                         <a className="normal" href="#">
-                          {item.title}
+                          { ServicesBlockInfo[17].title}
                         </a>
                       </h3>
                       <div className="text">
-                  {item.text}
+                        <p>{ ServicesBlockInfo[17].text}</p>
                       </div>
                     </div>
                   </div>
-                ))}
+                )}
+           {ServicesBlockInfo &&
+                ServicesBlockInfo[18] && (
+                  <div
+                    className="services-block-four how"
+                 
+                    style={{ marginBottom: `${ ServicesBlockInfo[18].checkLast ? 0 : "30px"}` }}
+                  >
+                    <div className="inner-box">
+                      <div className="step">{ ServicesBlockInfo[18].Step}</div>
+                      <h3>
+                        <a className="normal" href="#">
+                          { ServicesBlockInfo[18].title}
+                        </a>
+                      </h3>
+                      <div className="text">
+                        <p>{ ServicesBlockInfo[18].text}</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
+            {ServicesBlockInfo &&
+                ServicesBlockInfo[19] && (
+                  <div
+                    className="services-block-four how"
+                 
+                    style={{ marginBottom: `${ ServicesBlockInfo[19].checkLast ? 0 : "30px"}` }}
+                  >
+                    <div className="inner-box">
+                      <div className="step">{ ServicesBlockInfo[19].Step}</div>
+                      <h3>
+                        <a className="normal" href="#">
+                          { ServicesBlockInfo[19].title}
+                        </a>
+                      </h3>
+                      <div className="text">
+                        <p>{ ServicesBlockInfo[19].text}</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
             </div>
-            <div className="col-12 col-lg-6 mt-s">
+            <div className="col-md-6">
               <div className="service-img-wrapper">
                 <div className="image-box">
-                  <img
-                    src={ServicesCoreImgAppo}
-                    className="center-block img-responsive phone-img"
-                    alt=""
-                  />
+                {ServicesBlockInfo &&
+                ServicesBlockInfo[20] && (
+                  <div
+                    className="services-block-four how"
+                 
+                    style={{ marginBottom: `${ ServicesBlockInfo[20].checkLast ? 0 : "30px"}` }}
+                  >
+                    <div className="inner-box">
+                      <div className="step">{ ServicesBlockInfo[20].Step}</div>
+                      <h3>
+                        <a className="normal" href="#">
+                          { ServicesBlockInfo[20].title}
+                        </a>
+                      </h3>
+                      <div className="text">
+                        <p>{ ServicesBlockInfo[20].text}</p>
+                      </div>
+                    </div>
+                  </div>
+                )} {ServicesBlockInfo &&
+                  ServicesBlockInfo[21] && (
+                    <div
+                      className="services-block-four how"
+                   
+                      style={{ marginBottom: `${ ServicesBlockInfo[21].checkLast ? 0 : "30px"}` }}
+                    >
+                      <div className="inner-box">
+                        <div className="step">{ ServicesBlockInfo[21].Step}</div>
+                        <h3>
+                          <a className="normal" href="#">
+                            { ServicesBlockInfo[21].title}
+                          </a>
+                        </h3>
+                        <div className="text">
+                          <p>{ ServicesBlockInfo[21].text}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )} {ServicesBlockInfo &&
+                    ServicesBlockInfo[22] && (
+                      <div
+                        className="services-block-four how"
+                     
+                        style={{ marginBottom: `${ ServicesBlockInfo[22].checkLast ? 0 : "30px"}` }}
+                      >
+                        <div className="inner-box">
+                          <div className="step">{ ServicesBlockInfo[22].Step}</div>
+                          <h3>
+                            <a className="normal" href="#">
+                              { ServicesBlockInfo[22].title}
+                            </a>
+                          </h3>
+                          <div className="text">
+                            <p>{ ServicesBlockInfo[22].text}</p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                 </div>
               </div>
             </div>

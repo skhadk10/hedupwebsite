@@ -30,7 +30,7 @@ const HomeDemo3 = () => {
 
     return (
       <div>
-        <Header Title="Home Template3" />
+        <Header Title="Heup Trust" />
         <SecHeroSection />
         <div className="clearfix" />
         <SecOurMain OurMainContent={OurMainContent} />

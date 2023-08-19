@@ -19,6 +19,9 @@ const OurService = ({data}) => {
 					  </Div>
 					  <h6 className="bold">{item.title}</h6>
 					  <p>{item.text0}</p>
+					  <p>{item.text1}</p>
+					  <p>{item.text2}</p>
+					  <p>{item.text3}</p>
 					  <Link to={item.path} className="btn more-btn">Read more</Link>
 					</Div>
 				</Div>				

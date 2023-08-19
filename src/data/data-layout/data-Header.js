@@ -11,14 +11,14 @@ export const MenuInfo = [
 		path:"/services",
 		nameLink:'Services'
 	},
-	{
-		path:"/faq",
-		nameLink:'FAQ'
-	},
-	{
-		path:"/pricing",
-		nameLink:'Pricing'
-	},
+	// {
+	// 	path:"/faq",
+	// 	nameLink:'FAQ'
+	// },
+	// {
+	// 	path:"/pricing",
+	// 	nameLink:'Pricing'
+	// },
 	{
 		path:"/contact-us",
 		nameLink:'Contact'

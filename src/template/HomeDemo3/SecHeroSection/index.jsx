@@ -28,11 +28,11 @@ const SecHeroSection = () => {
                   </SpanTag>{" "}
                   Help You With Your NBN Services
                 </H1Tag>
-                <p className="g-text wow fadeInUp" data-wow-delay="0.3s">
+                {/* <p className="g-text wow fadeInUp" data-wow-delay="0.3s">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Vitae soluta, dignissimos aut, assumenda dolore totam natus
                   qui cum vel omnis voluptates.
-                </p>
+                </p> */}
                 <Div
                   className="info-btn-group wow fadeInUp"
                   data-wow-delay="0.4s"
