@@ -7,11 +7,13 @@ import SpanTag from '../../../components/SpanTag';
 import UlTag from '../../../components/UlTag';
 import Button from '../../../components/Button';
 import ImgTag from '../../../components/ImgTag';
+import { Link } from "react-router-dom";
 // import './secHeader.css'
 
 const SecHeader = ({
   Logo,
   dropdownItem,
+  LoginSignupInfo,
   MenuInfo,
   headInHome=false
 }) => {
@@ -57,7 +59,11 @@ const SecHeader = ({
                   </LiTag>
                 </>
               )}
-              <LiTag class="lh-55px"><Atag href="#" class="btn login-btn ml-50">Login!</Atag></LiTag>
+              
+              <LiTag class="lh-55px"><Link to="/login">
+                <Atag class="btn login-btn ml-50">Login!</Atag></Link></LiTag>
+              <LiTag class="lh-55px"><Link to="/signup">
+                <Atag class="btn login-btn ml-50">SignUp!</Atag></Link></LiTag>
             </UlTag>
           </Div>
         </Div>

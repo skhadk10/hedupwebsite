@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import Aos from 'aos'
 
 import Home from './pages/Home'
+import Login from './pages/Login'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Faq from './pages/Faq'
@@ -62,6 +63,8 @@ const App = () => {
           <Route path="/faq" component={Faq} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/contact-us" component={Contact} />
+          <Route path="/login" component={Login} />
+          {/* <Route path="/Login" component={Signup} /> */}
   				{/* <Route path="/index-demo-1" component={HomeDemo1} /> */}
           {/* <Route path="/index-demo-2" component={HomeDemo2} /> */}
           {/* <Route path="/index-demo-3" component={HomeDemo3} /> */}

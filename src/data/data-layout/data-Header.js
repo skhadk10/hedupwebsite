@@ -19,10 +19,21 @@ export const MenuInfo = [
 	// 	path:"/pricing",
 	// 	nameLink:'Pricing'
 	// },
+	
 	{
 		path:"/contact-us",
 		nameLink:'Contact'
 	}
+]
+export const LoginSignupInfo = [
+	{
+		path:"/login",
+		nameLink:'Login'
+	},
+	{
+		path:"/signup",
+		nameLink:'Signup'
+	},
 ]
 export const dropdownItem = [
 	{
