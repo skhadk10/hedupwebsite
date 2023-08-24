@@ -70,7 +70,7 @@ const LoginContainer = () => {
                       data-wow-delay="0.6s"
                     >
                       <button type="submit" className="btn more-btn">
-                        Send Message
+                        Login
                       </button>
                     </div>
                   </div>

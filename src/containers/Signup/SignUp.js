@@ -22,7 +22,7 @@ const SignUpContainer = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <SectionHeading title="SignUp" text="Employee Login" />
+              <SectionHeading title="SignUp" text="Employee SignUp" />
             </div>
           </div>
           <div className="row justify-content-center">
