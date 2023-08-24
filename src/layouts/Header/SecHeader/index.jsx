@@ -62,8 +62,8 @@ const SecHeader = ({
               
               <LiTag class="lh-55px"><Link to="/login">
                 <Atag class="btn login-btn ml-50">Login!</Atag></Link></LiTag>
-              <LiTag class="lh-55px"><Link to="/signup">
-                <Atag class="btn login-btn ml-50">SignUp!</Atag></Link></LiTag>
+              {/* <LiTag class="lh-55px"><Link to="/signup">
+                <Atag class="btn login-btn ml-50">SignUp!</Atag></Link></LiTag> */}
             </UlTag>
           </Div>
         </Div>
