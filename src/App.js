@@ -26,6 +26,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import ICTServices from "./pages/ICTServices";
 import CopperServices from "./pages/CopperServices";
 import FiberServices from "./pages/FiberServices";
+import SignUp from "./pages/SignUp";
 
 
 const App = () => {
@@ -64,7 +65,7 @@ const App = () => {
           <Route path="/pricing" component={Pricing} />
           <Route path="/contact-us" component={Contact} />
           <Route path="/login" component={Login} />
-          {/* <Route path="/Login" component={Signup} /> */}
+          <Route path="/signup" component={SignUp} />
   				{/* <Route path="/index-demo-1" component={HomeDemo1} /> */}
           {/* <Route path="/index-demo-2" component={HomeDemo2} /> */}
           {/* <Route path="/index-demo-3" component={HomeDemo3} /> */}

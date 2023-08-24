@@ -1,27 +1,28 @@
 import ContactContent from "../../data/data-containers/data-contact.js";
 
-import "./Login.scss";
+import "./SignUp.scss";
 
-import Header from "../../layouts/Header";
-import FooterWithout from "../../layouts/Footer/FooterWithout";
+import Header from "../../layouts/Header/index.jsx";
+import FooterWithout from "../../layouts/Footer/FooterWithout/index.jsx";
 
-import SectionHeading from "../../components/SectionHeading";
-import Breadcumb from "../../components/Breadcumb";
+import SectionHeading from "../../components/SectionHeading/index.jsx";
+import Breadcumb from "../../components/Breadcumb/index.jsx";
 import { useState } from "react";
 
-const LoginContainer = () => {
-
+const SignUpContainer = () => {
+  const [name, setName] = useState("");
+  const [surName, setSurName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
     <>
-      <Header Title="Login" />
-      <Breadcumb title="Login" text="Home" />
+      <Header Title="SignUp" />
+      <Breadcumb title="SignUp" text="Home" />
       <section className="section-padding-100 contact_us_area" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <SectionHeading title="Login" text="Employee Login" />
+              <SectionHeading title="SignUp" text="Employee Login" />
             </div>
           </div>
           <div className="row justify-content-center">
@@ -37,7 +38,22 @@ const LoginContainer = () => {
                     <div className="col-12">
                       <div id="success_fail_info" />
                     </div>
-                 
+                    <div className="col-12 col-md-6">
+                      <div className="group wow fadeInUp" data-wow-delay="0.2s">
+                        <input type="text" value={name} required />
+                        <span className="highlight" />
+                        <span className="bar" />
+                        <label>Name</label>
+                      </div>
+                    </div>
+                    <div className="col-12 col-md-6">
+                      <div className="group wow fadeInUp" data-wow-delay="0.2s">
+                        <input type="text" value={surName} required />
+                        <span className="highlight" />
+                        <span className="bar" />
+                        <label>SurName</label>
+                      </div>
+                    </div>
 
                     {/* {ContactContent && ContactContent.map((item , key) => (
                       <div className={`col-12 ${item.lastItem && "col-md-6"}`}>
@@ -70,7 +86,7 @@ const LoginContainer = () => {
                       data-wow-delay="0.6s"
                     >
                       <button type="submit" className="btn more-btn">
-                        Send Message
+                      SignUp
                       </button>
                     </div>
                   </div>
@@ -85,4 +101,4 @@ const LoginContainer = () => {
   );
 };
 
-export default LoginContainer;
+export default SignUpContainer;
