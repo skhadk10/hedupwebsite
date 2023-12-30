@@ -11,6 +11,7 @@ import FooterWith from "../../layouts/Footer/FooterWith";
 import SectionHeading from "../../components/SectionHeading";
 import Breadcumb from "../../components/Breadcumb";
 import SecContent from "./SecContent";
+import FooterPages from "../../layouts/Footer/FooterPages/index.jsx";
 
 const ServicesContainer = () => {
   return (
@@ -109,7 +110,7 @@ const ServicesContainer = () => {
           </div>
         </div>
       </section>
-      <FooterWith />
+  <FooterPages/>
     </>
   );
 };

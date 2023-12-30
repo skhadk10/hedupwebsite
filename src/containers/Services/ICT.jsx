@@ -14,6 +14,7 @@ import Breadcumb from "../../components/Breadcumb";
 import SecContent from "./SecContent";
 import SubSecContent from "./SecContent/SubIndex.jsx";
 import ICTSectionHeading from "../../components/SectionHeading/ICTSupport.jsx";
+import FooterPages from "../../layouts/Footer/FooterPages/index.jsx";
 
 const ICTServicesContainer = () => {
   return (
@@ -223,7 +224,7 @@ const ICTServicesContainer = () => {
           </div>
         </div>
       </section>
-      <FooterWith />
+      <FooterPages />
     </>
   );
 };

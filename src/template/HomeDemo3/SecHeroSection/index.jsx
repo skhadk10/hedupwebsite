@@ -18,15 +18,15 @@ const SecHeroSection = () => {
               <Div className="welcome-content">
                 <Div className="promo-section">
                   <H3Tag className="special-head gradient-text cyan">
-                    Increase Your Internet Speed 
+                  Hed Up Trust
                   </H3Tag>
                 </Div>
                 <H1Tag className="w-text wow fadeInUp" data-wow-delay="0.2s">
-                  Spend Less Time on Internet Issues.
+                ICT SUPPORT & TELECOMMUNICATION SERVICES,
                   <SpanTag className="gradient-text cyan">
-                    Hed Up Trust
+                    Helping companies to accelerate growth
                   </SpanTag>{" "}
-                  Help You With Your NBN Services
+                   
                 </H1Tag>
                 {/* <p className="g-text wow fadeInUp" data-wow-delay="0.3s">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.

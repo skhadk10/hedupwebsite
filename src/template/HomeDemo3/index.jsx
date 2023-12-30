@@ -49,7 +49,7 @@ const HomeDemo3 = () => {
           ClassBox="service_single_content text-center mb-100 fadeInUp"
           ClassHead="bold"
         />
-        <SecHowITWorks ServicesBlockInfo={ServicesBlockInfo} />
+        {/* <SecHowITWorks ServicesBlockInfo={ServicesBlockInfo} /> */}
         <OurService data={ServiceSingleInfo} />
         <FooterPages />
       </div>

@@ -19,6 +19,7 @@ import Breadcumb from '../../components/Breadcumb'
 import OurFeatures from '../../components/OurFeatures'
 import PaymentPlatform from '../../components/PaymentPlatform'
 import AboutUs from '../../components/AboutUs'
+import FooterPages from '../../layouts/Footer/FooterPages/index.jsx'
 
 const AboutContainer = () => {
 
@@ -37,12 +38,12 @@ const AboutContainer = () => {
         img2={AboutAbout12}
         img3={AboutDotted1}
       />
-      <AboutUs
+      {/* <AboutUs
         firstClass="about-us-area section-padding-100-70 clearfix"
         data={ServicesContent}
         img={AboutCoreImgAppo}
-      />
-      <FooterWith />
+      /> */}
+      <FooterPages/>
     </div>
   );
 }

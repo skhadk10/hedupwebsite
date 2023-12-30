@@ -33,31 +33,11 @@ export const IcoName = [
 
 export const TextFooter = [
 	{
-		title:'PRIVACY & TOS',
-		text1:'Advertiser Agreement',
-		text2:'Acceptable Use Policy',
-		text3:'Privacy Policy',
-		text4:'Technology Privacy',
-		text5:'Developer Agreement',
-        classBlock:"col-12 col-lg-3 col-md-6",
-        classInfo:"contact_info mt-x text-center fadeInUp",
-	},
-	{
-		title:'NAVIGATE',
-		text1:'Advertisers',
-		text2:'Developers',
-		text3:'Resources',
-		text4:'Company',
-		text5:'Connect',
-        classBlock:"col-12 col-lg-2 col-md-6",
-        classInfo:"contact_info mt-s text-center fadeInUp",
-	},
-	{
 		title:'CONTACT US',
-		text1:'Mailing Address:23 Alabaster St ',
-		text2:'Monasg ACT 2904',
-		text3:'O490692580',
-		text4:'HedupTrust@gmail.com',
+		text1:'Office:23 Alabaster St ',
+		text2:'Monash ACT 2904',
+		text3:'Mobile:O490692580',
+		text4:'Email:HedupTrust@gmail.com',
         classBlock:"col-12 col-lg-3 col-md-6",
         classInfo:"contact_info mt-s text-center fadeInUp",
 		text5:false

@@ -13,6 +13,7 @@ import SectionHeading from "../../components/SectionHeading";
 import Breadcumb from "../../components/Breadcumb";
 import SecContent from "./SecContent";
 import SubSecContent from "./SecContent/SubIndex.jsx";
+import FooterPages from "../../layouts/Footer/FooterPages/index.jsx";
 
 const CopperServicesContainer = () => {
   return (
@@ -187,7 +188,7 @@ const CopperServicesContainer = () => {
           </div>
         </div>
       </section>
-      <FooterWith />
+      <FooterPages />
     </>
   );
 };

@@ -7,6 +7,7 @@ import FooterWithout from '../../layouts/Footer/FooterWithout'
 
 import SectionHeading from '../../components/SectionHeading'
 import Breadcumb from '../../components/Breadcumb'
+import FooterPages from '../../layouts/Footer/FooterPages/index.jsx'
 
 const ContactContainer = () => {
 
@@ -24,7 +25,7 @@ const ContactContainer = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-md-10 col-lg-8">
               <div className="contact_form">
-                <form action="#" method="post" id="main_contact_form" noValidate>
+                <form action="form-handler.php" method="post" id="main_contact_form" noValidate>
                   <div className="row">
                     <div className="col-12">
                       <div id="success_fail_info" />
@@ -57,7 +58,7 @@ const ContactContainer = () => {
           </div>
         </div>
       </section>
-      <FooterWithout HavMargn={true} />
+      <FooterPages />
     </>
   );
 }

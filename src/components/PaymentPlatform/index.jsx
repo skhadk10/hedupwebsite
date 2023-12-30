@@ -21,12 +21,12 @@ const PaymentPlatform = ({
           <Div className="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left">
             <Div className="ab-wrapper">
               <ImgTag className="abso-img1" src={img1} alt="" />
-              <ImgTag
+              {/* <ImgTag
                 className="wow abso-img2 floating animated"
                 data-wow-delay="0.2s"
                 src={img2}
                 alt=""
-              />
+              /> */}
               <ImgTag className="abso-img3" src={img3} alt="" />
             </Div>
           </Div>
@@ -61,7 +61,7 @@ const PaymentPlatform = ({
                         <ITag className="fa fa-check" />
                       </Div>
                       <H3Tag>
-                        <Link to={item.path}> <Atag >{item.title}</Atag></Link>
+                        <h3 to={item.path}> <span >{item.title}</span></h3>
                       </H3Tag>
                       <Div className="text width-80">
                         {item.text}

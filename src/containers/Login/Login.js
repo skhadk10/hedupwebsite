@@ -8,6 +8,7 @@ import FooterWithout from "../../layouts/Footer/FooterWithout";
 import SectionHeading from "../../components/SectionHeading";
 import Breadcumb from "../../components/Breadcumb";
 import { useState } from "react";
+import FooterPages from "../../layouts/Footer/FooterPages/index.jsx";
 
 const LoginContainer = () => {
 
@@ -80,7 +81,7 @@ const LoginContainer = () => {
           </div>
         </div>
       </section>
-      <FooterWithout HavMargn={true} />
+      <FooterPages HavMargn={true} />
     </>
   );
 };
