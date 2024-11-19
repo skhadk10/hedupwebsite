@@ -34,8 +34,8 @@ export const IcoName = [
 export const TextFooter = [
 	{
 		title:'CONTACT US',
-		text1:'Office:23 Alabaster St ',
-		text2:'Monash ACT 2904',
+		text1:'Office:7/5 Isa St ',
+		text2:'FYSHWICK ACT 2609',
 		text3:'Mobile:O490692580',
 		text4:'Email:HedupTrust@gmail.com',
         classBlock:"col-12 col-lg-3 col-md-6",
